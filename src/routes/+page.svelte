@@ -3,6 +3,7 @@
     import AnimeComponent from "./AnimeComponent.svelte";
 
     export let data: PageData;
+
 </script>
 
 {#each data.recommended.data as recommendation}
