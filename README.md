@@ -35,7 +35,8 @@ Add a button in the anime details screen that will remove it from favorites.
 
 ### Medium
 
-For the "Add to favorites" form action, add validation on the server side using the Zod library.
+For the "Add to favorites" form action, add validation on the server side using the Zod library.  
+Make it that there is no type assertion ("as") anywhere. 
 
 ### Medium
 
