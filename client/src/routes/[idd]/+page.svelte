@@ -1,6 +1,5 @@
 <script lang="ts">
     import { enhance } from "$app/forms";
-    import { goto } from "$app/navigation";
     import AnimeComponent from "../AnimeComponent.svelte";
     import type { PageData } from "./$types";
 
@@ -26,6 +25,6 @@
     </button>
 </form>
 
-<button class="bg-gray-300 rounded p-4 mt-4" on:click={() => goto("/")}>
-    Go back to list
-</button>
+<div class="mt-10">
+    <a class="bg-gray-300 rounded p-4" href="/">Go back to list</a>
+</div>

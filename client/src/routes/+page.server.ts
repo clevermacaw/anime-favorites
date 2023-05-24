@@ -14,13 +14,15 @@ type RecommendedAnime = {
                     small_image_url: string;
                     large_image_url: string;
                 };
-            }
+            };
         }[];
     }[];
 };
 
 export const load = (async () => {
-    const recommended = await apiRequest<RecommendedAnime>("recommendations/anime");
+    const recommended = await apiRequest<RecommendedAnime>(
+        "recommendations/anime",
+    );
     return {
         recommended: recommended,
     };
