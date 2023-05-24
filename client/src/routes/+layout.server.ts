@@ -1,5 +1,5 @@
+import favorites from "$lib/data/favorites";
 import type { LayoutServerLoad } from "./$types";
-import favorites from "../data/favorites";
 
 export const load = (async () => {
     return {

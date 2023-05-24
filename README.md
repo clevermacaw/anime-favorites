@@ -26,7 +26,7 @@ Choose which tasks You would like to tackle. Do as much as You feel comfortable 
 
 ### Easy
 
-Style this application a little bit, JUST a little bit. Show that you know how to use grid and flex.  
+Style this application a little bit. Show that you know how to use grid and flex.  
 Do everything using TailwindCss. Extend the theme with primary and secondary colors.
 
 ### Easy

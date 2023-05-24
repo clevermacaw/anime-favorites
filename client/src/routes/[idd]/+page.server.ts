@@ -1,5 +1,5 @@
 import { apiRequest } from "$lib/api.util";
-import favorites from "../../data/favorites";
+import favorites from "$lib/data/favorites";
 import type { Actions, PageServerLoad } from "./$types";
 
 export type Anime = {
