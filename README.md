@@ -1,38 +1,42 @@
-# create-svelte
+# Svelte Task
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Run the application
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+```
+cd client
+pnpm i
+docker-compose up --build
 ```
 
-## Developing
+## Project overview
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+This is a very simple app built using SvelteKit with TailwindCss, with a ready-to-use BaaS (Backend as a Service) called PocketBase.  
+It uses an open API to download a list of anime and display them.  
+You can access anime details and add them to favorites.  
+All favorites are then displayed on the right side of the screen.  
+This API has a rate limiter, so sometimes there might be some errors.  
 
-```bash
-npm run dev
+## Tasks:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Very Easy
 
-## Building
+Style this application a little bit, JUST a little bit. Show that you know how to use grid and flex.  
+Do everything using TailwindCss. Extend the theme with primary and secondary colors.
 
-To create a production version of your app:
+### Easy
 
-```bash
-npm run build
-```
+Add a button in the anime details screen that will remove it from favorites.
 
-You can preview the production build with `npm run preview`.
+### Medium
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+For the "Add to favorites" form action, add validation on the server side using the Zod library.  
+
+### Medium - tricky
+
+Add the same button, but right in the favorites list on the right side of the screen.  
+Each anime in the favorites list should have its own special button underneath.
+
+### Hard
+
+Instead of using the data/favorites.ts object, establish a connection to PocketBase.  
+Create a table to store and load favorites from there.

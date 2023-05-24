@@ -29,10 +29,6 @@ export const actions = {
     addToFavorites: async ({ request }) => {
         const form = await request.formData();
 
-        // Here we would use zod to validate the form data
-        // And after that the form data would be typed as
-        // { mal_id: number, title: string, image: string }
-        // :)
         const mal_id = form.get("mal_id") as unknown as number;
         const title = form.get("title") as unknown as string;
         const image = form.get("image") as unknown as string;
