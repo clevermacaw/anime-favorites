@@ -27,11 +27,15 @@ Choose which tasks You would like to tackle. Do as much as You feel comfortable 
 ### Easy
 
 Style this application a little bit. Show that you know how to use grid and flex.  
-Do everything using TailwindCss. Extend the theme with primary and secondary colors.
+Do everything using TailwindCss.
 
 ### Easy
 
 Add a button in the anime details screen that will remove it from favorites.
+
+### Medium
+
+Advanced styling. Extend the tailwind theme, do some gradient, use Svelte Animation, show what You know and have fun. 
 
 ### Medium
 
