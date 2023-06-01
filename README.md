@@ -48,7 +48,7 @@ Add tests using vitest or / and playwright.
 
 ### Medium - tricky
 
-Add the same button, but right in the favorites list on the right side of the screen.  
+Add the same button to delete anime from favorites, but right in the favorites list on the right side of the screen.  
 Each anime in the favorites list should have its own special button underneath.
 
 ### Hard
