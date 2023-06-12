@@ -55,3 +55,7 @@ Each anime in the favorites list should have its own special button underneath.
 
 Instead of using the data/favorites.ts object, establish a connection to PocketBase.  
 Create a table to store and load favorites from there.
+
+### Senior Full Stack
+
+Created a working backend using Go and PostgreSQL / MySQL. Add setup for the docker deployment.
