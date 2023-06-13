@@ -6,7 +6,7 @@
 
 <h1>{title}</h1>
 
-<a href="/{mal_id}">
+<a href="/{mal_id}" class="flex justify-center">
     <img
         class="hover:opacity-50 hover:cursor-pointer"
         src={image}
