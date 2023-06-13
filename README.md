@@ -1,4 +1,4 @@
-# Svelte Task
+# Favorite Animes - Svelte
 
 ## Run the application
 
@@ -16,14 +16,6 @@ You can access anime details and add them to favorites.
 All favorites are then displayed on the right side of the screen.  
 This API has a rate limiter, so sometimes there might be some errors.
 
-## Tasks
-
-Fork this repo, create a new branch and start working there.  
-After finish, create a Pull Request from Your branch to Your Fork and invite me.  
-This way i will be able to see all the changes, and my repo will be clean for the next candidate :).
-
-Choose which tasks You would like to tackle. Do as much as You feel comfortable :)
-
 ### Easy
 
 Style this application a little bit. Show that you know how to use grid and flex.  
@@ -35,12 +27,12 @@ Add a button in the anime details screen that will remove it from favorites.
 
 ### Medium
 
-Advanced styling. Extend the tailwind theme, do some gradient, use Svelte Animation, show what You know and have fun. 
+Advanced styling. Extend the tailwind theme, do some gradient, use Svelte Animation, show what You know and have fun.
 
 ### Medium
 
 For the "Add to favorites" form action, add validation on the server side using the Zod library.  
-Make it that there is no type assertion ("as") anywhere. 
+Make it that there is no type assertion ("as") anywhere.
 
 ### Medium
 
